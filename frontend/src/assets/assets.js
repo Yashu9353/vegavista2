@@ -14,7 +14,7 @@ import logo3 from './logo3.png';
 import women1 from './women1.png';
 import women2 from './women2.png';
 import trash2 from './trash2.png';
-import vega from './vega.png';
+import vegaa from './vegaa.png';
 import user2 from './user2.png';
 import search2 from './search2.png';
 import dropdown2 from './dropdown2.png';
@@ -125,7 +125,7 @@ export const assets = {
   dropdown_icon,
   dropdown2,
   menu2,
-  vega,
+  vegaa,
   greenw1,
   exchange_icon,
   profile_icon,
