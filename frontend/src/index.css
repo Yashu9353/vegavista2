@@ -50,7 +50,7 @@ h6,
 span,
 div,
 li {
-  color: rgb(40, 29, 197);
+  color: rgb(255, 255, 255);
 }
 
 /* Ensure all background colors intended to be white are now black */
@@ -60,7 +60,7 @@ li {
 
 /* Ensure specific white text classes are now blue */
 .text-white {
-  color: rgb(36, 0, 238);
+  color: rgb(255, 255, 255);
 }
 
 /* Adjust any white borders to a custom pink color */
