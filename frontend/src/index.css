@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply specific styles to active anchor tags with an hr */
+a.active hr {
+  display: block;
+  background-color: rgb(255, 255, 255); /* White color */
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+.prata-regular {
+  font-family: 'Prata', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Hide the scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(190, 13, 13);
+  }
+}
+
+/* Global adjustments for dark theme */
+body,
+html {
+  background-color: rgb(0, 0, 0);
+  color: rgb(16, 218, 150);
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+li {
+  color: rgb(40, 29, 197);
+}
+
+/* Ensure all background colors intended to be white are now black */
+.bg-white {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Ensure specific white text classes are now blue */
+.text-white {
+  color: rgb(36, 0, 238);
+}
+
+/* Adjust any white borders to a custom pink color */
+.border-white {
+  border-color: rgb(228, 5, 135);
+}
+
+/* Avoid overriding all text colors globally */
