@@ -5,6 +5,7 @@ import razorpay from 'razorpay'
 
 // global variables
 const currency = 'inr'
+const frontend_url="https://vegavista2-frontend.onrender.com/"
 const deliveryCharge = 10
 
 // gateway initialize
