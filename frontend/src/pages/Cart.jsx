@@ -60,7 +60,7 @@ const Cart = () => {
                       {currency}
                       {productData.price}
                     </p>
-                    <p className="px-2 sm:px-3 sm:py-1 border bg-slate-50">
+                    <p className="px-2 sm:px-3 sm:py-1 border bg-slate-500">
                       {item.size}
                     </p>
                   </div>
@@ -98,7 +98,7 @@ const Cart = () => {
           <div className=" w-full text-end">
             <button
               onClick={() => navigate('/place-order')}
-              className="bg-black text-white text-sm my-8 px-8 py-3"
+              className="bg-black text-gray-500 text-sm my-8 px-8 py-3"
             >
               PROCEED TO CHECKOUT
             </button>
